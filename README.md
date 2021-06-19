@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA) with SQL
 
-In this project, we're going to do Exploratory Data Analysis (EDA) of world's Coivd-19 data (as on 13/06/2021) using MS SQL.
+In this project, we're going to carry out Exploratory Data Analysis (EDA) of world's Coivd-19 data (as on 13/06/2021) using MS SQL.
 
 
 ## Authors
