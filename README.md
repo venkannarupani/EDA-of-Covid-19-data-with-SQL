@@ -1,9 +1,6 @@
-# EDA-of-Covid-19-data-with-SQL
-Exploratory Data Analysis (EDA) of Coronavirus (COVID-19) Deaths world-wide for data as on 13/06/2021
-
 # Exploratory Data Analysis with SQL
 
-In this project, we're going to do Exploratory Data Analysis (EDA) of world's Coivd-19 data using MS SQL.
+In this project, we're going to do Exploratory Data Analysis (EDA) of world's Coivd-19 data (as on 13/06/2021) using MS SQL.
 
 
 ## Authors
