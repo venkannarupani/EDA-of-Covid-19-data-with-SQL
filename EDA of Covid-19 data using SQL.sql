@@ -62,14 +62,6 @@ SELECT SUM(new_cases) AS Total_Cases, SUM(CAST(new_deaths AS INT)) AS Total_Deat
 FROM PortfolioProject..CovidDeaths
 WHERE continent IS NOT NULL
 
-----Overall Global cases, deaths and death rate
---SELECT SUM(new_cases) AS Total_Cases, SUM(CAST(new_deaths AS INT)) AS Total_Deaths, SUM(CAST(new_deaths AS INT))/SUM(new_cases)*100 AS Overall_Death_Rate
---FROM PortfolioProject..CovidDeaths
-----WHERE location like '%states%'
---WHERE continent IS NOT NULL
-----GROUP BY location --,population
-----ORDER BY HighestDeath DESC
-
 -- Joing two tables  :CovidDeaths & CovidVaccinations
 SELECT *
 FROM PortfolioProject..CovidDeaths cd
@@ -77,7 +69,7 @@ JOIN PortfolioProject..CovidVaccinations cv
 ON cd.location = cv.location
 AND cd.date = cv.date
 
-	-- Looking total vaccinated vs total population
+-- Looking total vaccinated vs total population
 SELECT cd.continent, cd.location, cd.date, cd.population, cv.new_vaccinations
 FROM PortfolioProject..CovidDeaths cd
 JOIN PortfolioProject..CovidVaccinations cv
