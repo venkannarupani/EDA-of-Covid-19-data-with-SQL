@@ -42,6 +42,7 @@ ORDER BY 3,4
 
         1. CovidDeath
         2. CovidVaccination
+        
     2. After splitting the data, the files have been saved as separate excel files.
     3. These two excel files have been uploaded into MS SQL database using SQL Server Import & Export tool.
 
